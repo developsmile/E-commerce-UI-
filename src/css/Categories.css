@@ -1,0 +1,236 @@
+.heading-categories,.heading-brand{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+.categories-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    background-color: rgb(209, 221, 215);
+}
+.item-card{
+    margin: 20px auto;
+    text-align: center;
+}
+.item-card img{
+    width: 100%;
+    object-fit: cover;
+}
+.item-card .title{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.card-button{
+    text-align: center;
+    margin: 5px auto;
+}
+
+
+
+/* brand */
+.main-horizontal{
+    display: flex;
+    justify-content: center;
+}
+.horizontal{
+    width: 50px;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin: 5px;
+}
+.brand-container{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+    margin: 10px 0px 50px 0px ;
+}
+.brand-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex: 1;
+}
+.brand-card:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in;
+}
+.info-card{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* ProductItem.jsx */
+.product-container{
+    display: flex;
+    padding: 25px;
+    flex-wrap: wrap;
+    
+}
+.product-item-card{
+    flex: 1;
+    margin: 8px;
+    min-width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 253, 250);
+    position: relative;
+}
+.product-img{
+    height:75% ;
+    z-index: 2;
+}
+.prize{
+    font-size: 10px;
+    font-weight: 200;
+    opacity: 0;   
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.product-info{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.151);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-item-card:hover .prize{
+    z-index: 4;
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    transform: scale(2);
+}
+.product-item-card:hover .product-info{
+    transition: all .5s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+}
+.product-item-card .icon{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+}
+
+.product-item-card .icon:hover{
+    background-color: rgb(243, 237, 237);
+    transform: scale(1.12);
+    transition: .3s ease-in-out;
+}
+
+
+/* Footer  */
+.footer-container{
+    display: flex;
+    background-color: rgb(233, 231, 231);
+    padding: 20px 30px;
+}
+.footer-container .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+.footer-container .center{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+.footer-container .left .logo{
+    font-size: 40px;
+    font-weight: 200;
+}
+.footer-container .left .desc{
+    margin: 20px 0px ;    
+}
+.footer-container .left .social-link{
+    display: flex;
+}
+.footer-container .left .social-link .social-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.footer-container .left .social-link .social-icon:hover{
+    transform: scale(1.22);
+    transition: all 0.2s ease;
+}
+.footer-container .center .title{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.center ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.center ul li{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.footer-container .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
+.footer-container .right .title{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.footer-container .right .contact .contactItem{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: baseline;
+}
+
+.footer-container .paymet{
+    display: flex;
+}
+.footer-container .paymet img{
+    width: 50px;
+    margin: 10px;
+}
