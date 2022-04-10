@@ -75,34 +75,42 @@ export const Brandata=[
 export const ProductData = [
     {
         id:1,
-        img:"https://cdn.shopclues.com/images1/thumbnails/104239/280/1/148699700-104239236-1577728427.jpg"
+        img:"https://cdn.shopclues.com/images1/thumbnails/104239/280/1/148699700-104239236-1577728427.jpg",
+        prize:"$ "+ 5
     }, 
     {
         id:2,
-        img:"https://cdn.shopclues.com/images1/thumbnails/113322/280/1/152038893-113322176-1614343354.jpg"
+        img:"https://cdn.shopclues.com/images1/thumbnails/113322/280/1/152038893-113322176-1614343354.jpg",
+        prize:"$ "+ 8
     },
     {
         id:3,
-        img:"https://cdn.shopclues.com/images1/thumbnails/113554/280/1/152139960-113554735-1617347494.jpg"
+        img:"https://cdn.shopclues.com/images1/thumbnails/113554/280/1/152139960-113554735-1617347494.jpg",
+        prize:"$ "+ 12
     },
     {
         id:4,
-        img:"https://cdn.shopclues.com/images1/thumbnails/105437/280/1/149210429-105437953-1584090782.jpg"
+        img:"https://cdn.shopclues.com/images1/thumbnails/105437/280/1/149210429-105437953-1584090782.jpg",
+        prize:"$ "+15
     },
     {
         id:5,
-        img:"https://cdn.shopclues.com/images1/thumbnails/104870/280/1/148995714-104870779-1581076054.jpg"
+        img:"https://cdn.shopclues.com/images1/thumbnails/104870/280/1/148995714-104870779-1581076054.jpg",
+        prize:"$ "+ 3
     },
     {
         id:6,
-        img:"https://cdn.shopclues.com/images1/thumbnails/99318/280/1/145471024-99318227-1556024081.jpg"
+        img:"https://cdn.shopclues.com/images1/thumbnails/99318/280/1/145471024-99318227-1556024081.jpg",
+        prize:"$ "+ 20
     },
     {
         id:8,
-        img:"https://cdn.shopclues.com/images1/thumbnails/111754/280/1/151311828-111754666-1603694012.jpg"
+        img:"https://cdn.shopclues.com/images1/thumbnails/111754/280/1/151311828-111754666-1603694012.jpg",
+        prize:"$ "+ 7
     },
     {
         id:9,
-        img:"https://cdn.shopclues.com/images1/thumbnails/108540/280/1/150356721-108540313-1595407599.jpg"
+        img:"https://cdn.shopclues.com/images1/thumbnails/108540/280/1/150356721-108540313-1595407599.jpg",
+        prize:"$ "+ 25
     }
 ]

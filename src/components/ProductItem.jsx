@@ -17,7 +17,7 @@ const ProductItem = ({item}) => {
               </div>
             </div>
             <div className="prize">
-                $ 300.00
+                {item.prize}
             </div>
         </div>
     </>

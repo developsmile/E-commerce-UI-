@@ -1,0 +1,41 @@
+.register-container{
+    width: 100vw;
+    height: 100vh;
+    background: url("/public/Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-container .form-container{
+    width: 40%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+.register-container .form-container .reg-title{
+    font-style: 25px;
+    font-weight: 300;
+}
+.register-container .form-container form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.register-container .form-container form input{
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0px 0px;
+    height: 30px;
+    padding: 10px;
+}
+.register-container .form-container form .agreement{
+    font-size: 12px;
+    margin: 20px 0px;
+}
+.register-container .form-container form button{
+    width: 40%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
