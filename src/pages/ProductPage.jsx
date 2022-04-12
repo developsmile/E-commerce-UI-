@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/ProductPage.css'
 import Navbar from '../components/Navbar'
 import Product from '../components/Product'
+import Footer from '../components/Footer'
 const ProductPage = () => {
   return (
     <>
@@ -44,6 +45,7 @@ const ProductPage = () => {
             </div>
         </div>
         <Product />
+        <Footer />
     </>
   )
 }

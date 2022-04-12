@@ -58,12 +58,27 @@
 }
 .cart-checkout-box{
     flex: 1;
-    border: 1px solid black;
-    margin:5px;
+    background-color: rgba(236, 236, 236, 0.945);
+    margin:20px;
+    height: fit-content;
+    padding: 15px 15px; 
 }
 .cart-checkout-box ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin: 10px 10px;
+    margin: 15px 10px;
+}
+.cart-checkout-box h3{
+    text-align: center;
+}
+.cart-checkout-box .order-button{
+    background-color: rgb(77, 64, 64);
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+}
+.cart-checkout-box .order-button:hover{
+    background-color: rgb(77, 64, 64);
+    color: white;
 }

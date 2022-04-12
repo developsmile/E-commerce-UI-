@@ -2,12 +2,13 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import React from 'react'
 import '../css/Categories.css';
+import { Link } from 'react-router-dom';
 const ProductItem = ({item}) => {
   console.log(item);
   return (
     <>
       <div className="product-item-card"> 
-            <img src={item.img} alt="" className='product-img' />
+            <Link to="/uniqueproduct"><img src={item.img} alt="" className='product-img' /></Link>
             <div className="product-info">
               <div className="icon">
                 <ShoppingCartOutlinedIcon color="white" />

@@ -3,6 +3,7 @@ import '../css/Navbar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import Badge from '@mui/material/Badge';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div className="nav-container">
@@ -15,14 +16,14 @@ const Navbar = () => {
             
         </div>
         <div className="center">
-            <h3>E-Shop</h3>
+            <Link to="/"><h3>E-Shop</h3></Link>
         </div>
         <div className="right">
-            <div className="signin"> <a href="/">Sign In</a> </div>
-            <div className="signup"> <a href="/">Sign Up</a> </div>
+            <div className="signin"> <Link to="/login">Sign In</Link> </div>
+            <div className="signup"> <Link to="/register">Sign Up</Link> </div>
             <div className="cart">
                 <Badge badgeContent={7} color="primary">
-                    <ShoppingCartOutlinedIcon color="white" />
+                    <Link to="/cart"><ShoppingCartOutlinedIcon color="white" /></Link>
                 </Badge>
             </div>
         </div>

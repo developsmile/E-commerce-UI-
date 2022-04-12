@@ -6,6 +6,7 @@ import { Button } from '@mui/material'
 import { Favorite } from '@mui/icons-material'
 import { Data } from '../data/Categories'
 import CloseIcon from '@mui/icons-material/Close';
+import Divider from '@mui/material/Divider';
 const Cart = () => {
   return (
     <>
@@ -44,6 +45,7 @@ const Cart = () => {
               
               <div className="cart-checkout-box">
                 <h3>ORDER SUMMARY</h3>
+                <br />
                 <ul>
                   <li>Shopping cart </li>
                   <li> $ 50 </li>
@@ -52,11 +54,13 @@ const Cart = () => {
                   <li>Discount </li>
                   <li> - $ 5 </li>
                 </ul>
-                <ul style={{fontFamily:"bold"}}>
+                <Divider />
+                <ul>
                   <li>Estimated total </li>
                   <li> $ 45 </li>
                 </ul>
                 
+                <Button variant="contained" className='order-button'>Place Order</Button>
 
               </div>
           </div>
